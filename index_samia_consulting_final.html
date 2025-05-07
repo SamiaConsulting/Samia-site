@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Samia Consulting</title>
+  <style>
+    body { font-family: 'Segoe UI', sans-serif; margin: 0; padding: 0; background: #f8f9fa; }
+    header { background: #007B8F; color: white; padding: 2rem; text-align: center; }
+    section { padding: 2rem; max-width: 800px; margin: auto; background: white; margin-top: 1rem; border-radius: 1rem; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+    footer { text-align: center; padding: 1rem; font-size: 0.9rem; color: gray; }
+    .chatbot-container { position: fixed; bottom: 20px; right: 20px; z-index: 1000; }
+    iframe { border: none; border-radius: 1rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>مرحباً بك في Samia Consulting</h1>
+    <p>الاستشارة التي تفهمك... بكل اللغات واللهجات</p>
+  </header>
+
+  <section>
+    <h2>من أنا؟</h2>
+    <p>
+      اسمي Samia، مستشارة متخصصة في التحليل الشخصي والمالي. أقدم خدماتي باللغة العربية الفصحى، الدارجة المغربية، الفرنسية والإنجليزية.
+    </p>
+  </section>
+
+  <section>
+    <h2>خدماتي</h2>
+    <ul>
+      <li>تحليل مالي شخصي</li>
+      <li>استشارات شخصية وعاطفية</li>
+      <li>تخطيط مشاريع صغيرة</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>اطلب استشارتك الآن</h2>
+    <form>
+      <label>اسمك:</label><br />
+      <input type="text" name="name" required /><br /><br />
+
+      <label>وصف مشكلتك:</label><br />
+      <textarea name="message" rows="5" required></textarea><br /><br />
+
+      <button type="submit">إرسال</button>
+    </form>
+  </section>
+
+  <footer>
+    Samia Consulting © 2025
+  </footer>
+
+  <div class="chatbot-container">
+    <iframe
+      src="https://www.chatbase.co/chatbot-iframe/QqAW_tI1Ki0P0d3bPolO5"
+      width="320"
+      height="480"
+      title="Samia Assistant"
+    ></iframe>
+  </div>
+</body>
+</html>
